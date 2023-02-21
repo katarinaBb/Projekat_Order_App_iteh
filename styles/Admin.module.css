@@ -1,0 +1,28 @@
+.container {
+    padding: 50px;
+    display: flex;
+  }
+  
+  .item {
+    flex: 1;
+  }
+  
+  .table {
+    width: 100%;
+    border-spacing: 20px;
+    text-align: left;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: crimson;
+  }
+
+  .button:disabled {
+    opacity: 50%;
+    cursor:auto;
+  }
